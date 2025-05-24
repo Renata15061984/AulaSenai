@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    background-color:rgb(65, 179, 231); 
+
+}
+form{
+    margin: auto;
+    max-width: 600px;
+}
+input, textarea{
+    width:100%;
+    padding: 10px; 
+    margin: 8px;
+    border: 2px solid red; 
+    border-radius: 15px;
+    font-size: 15px;
+}
+input:focus, textarea:focus{
+    border-color:rgb(210, 37, 14);
+    background-color:blueviolet;
+    outline:none;
+
+
+}
+button{
+    border-color:blueviolet;
+    color:blueviolet;
+    padding: 10px 15px;
+    border:nome;
+    border-radius: 15px;
+    cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(209, 26, 151);
+    }
